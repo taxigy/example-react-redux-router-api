@@ -1,0 +1,33 @@
+{
+  "name": "example-react-redux-router-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:taxigy/example-react-redux-router-api.git",
+  "author": "Rishat Muhametshin <rishatmuhametshin@gmail.com> (http://rishat.us)",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^3.5.6"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "stage-2"
+    ]
+  }
+}
